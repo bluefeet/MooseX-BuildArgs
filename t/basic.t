@@ -10,8 +10,7 @@ BEGIN { use_ok('MooseX::BuildArgs') }
     package MyClass;
     use Moose;
 
-    with 'MooseX::BuildArgs';
-
+    use MooseX::BuildArgs;
     use Moose::Util::TypeConstraints;
 
     subtype 'Bar',
