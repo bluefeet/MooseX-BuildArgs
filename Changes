@@ -1,6 +1,8 @@
 Revision history for Perl extension MooseX::BuildArgs.
 
 {{$NEXT}}
+ - Rollback Moose prereq version a bit.
+ - Fix 'use Moose` header.
 
 0.02      2012-03-19
  - Switch to using Moose::Exporter.
