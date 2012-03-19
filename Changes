@@ -1,6 +1,8 @@
 Revision history for Perl extension MooseX::BuildArgs.
 
 {{$NEXT}}
+
+0.02      2012-03-19
  - Switch to using Moose::Exporter.
 
 0.01      2012-03-19
