@@ -53,4 +53,25 @@ BEGIN { use_ok('MooseX::BuildArgs') }
     );
 }
 
+{
+    package MyRole;
+    use Moose::Role;
+    use MooseX::BuildArgs;
+}
+
+{
+    package MyClass2;
+    use Moose;
+    with 'MyRole';
+}
+
+{
+    my $obj = MyClass2->new( foo=>55, bar=>'baz' );
+    is_deeply(
+        $obj->build_args(),
+        { foo=>55, bar=>'baz' },
+        'works with roles too',
+    );
+}
+
 done_testing;

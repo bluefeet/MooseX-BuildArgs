@@ -10,11 +10,7 @@ Create a class that uses this module:
     use Moose;
     use MooseX::BuildArgs;
     has foo => ( is=>'ro', isa=>'Str' );
-
-Then whenever an instance of this class is created all arguments to the
-constructor are saved in the build_args attribute:
-
-    use MyClass;
+    
     my $object = MyClass->new( foo => 32 );
     print $object->build_args->{foo};
 
@@ -25,7 +21,7 @@ defaults, and coercion take affect.  This module provides a build_args hashref a
 for all instances of the consuming class.  The build_args attribute contains all arguments
 that were passed to the constructor.
 
-A typical case for this module would be for creating a clone of an object, so you could
+A contrived case for this module would be for creating a clone of an object, so you could
 duplicate an object with the following code:
 
     my $obj1 = MyClass->new( foo => 32 );
