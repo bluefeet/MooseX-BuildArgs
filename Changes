@@ -1,6 +1,8 @@
 Revision history for Perl extension MooseX::BuildArgs.
 
 {{$NEXT}}
+
+0.04      2012-04-16
  - Minor doc edits.
  - Use Moose's meta traits more effectively so that single args may be
    declared in roles.
