@@ -1,0 +1,73 @@
+{
+   "abstract" : "Save the original constructor arguments for later use.",
+   "author" : [
+      "Aran Clary Deltac <bluefeet@gmail.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Minilla/v3.1.4, CPAN::Meta::Converter version 2.150010",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "MooseX-BuildArgs",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "inc",
+         "share",
+         "eg",
+         "examples",
+         "author",
+         "builder"
+      ]
+   },
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "Module::Build::Tiny" : "0.035"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Test::CPAN::Meta" : "0",
+            "Test::MinimumVersion::Fast" : "0.04",
+            "Test::PAUSE::Permissions" : "0.04",
+            "Test::Pod" : "1.41",
+            "Test::Spellunker" : "v0.2.7"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Moose" : "1.23",
+            "MooseX::Types" : "0.37"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test2::V0" : "0.000094"
+         }
+      }
+   },
+   "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/bluefeet/MooseX-BuildArgs/issues"
+      },
+      "homepage" : "https://github.com/bluefeet/MooseX-BuildArgs",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/bluefeet/MooseX-BuildArgs.git",
+         "web" : "https://github.com/bluefeet/MooseX-BuildArgs"
+      }
+   },
+   "version" : "0.06",
+   "x_contributors" : [
+      "Aran Deltac <aran@ziprecruiter.com>"
+   ],
+   "x_serialization_backend" : "JSON::PP version 2.27300",
+   "x_static_install" : 1
+}

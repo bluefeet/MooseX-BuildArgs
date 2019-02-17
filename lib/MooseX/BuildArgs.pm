@@ -1,6 +1,6 @@
 package MooseX::BuildArgs;
-use Moose ();
-use Moose::Exporter;
+
+$MooseX::BuildArgs::VERSION = '0.06';
 
 =head1 NAME
 
@@ -33,6 +33,9 @@ duplicate an object with the following code:
     print $obj2->foo();
 
 =cut
+
+use Moose ();
+use Moose::Exporter;
 
 Moose::Exporter->setup_import_methods(
     role_metaroles => {
