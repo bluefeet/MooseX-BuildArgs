@@ -2,6 +2,8 @@ Revision history for Perl extension MooseX::BuildArgs.
 
 {{$NEXT}}
 
+ - Declare dependency on MooseX::Types.
+
 0.06 2018-06-05
 
 - Fix a test using package block syntax which was upping our required
