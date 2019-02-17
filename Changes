@@ -2,7 +2,6 @@ Revision history for Perl extension MooseX-BuildArgs.
 
 {{$NEXT}}
 
- - Declare dependency on MooseX::Types.
  - Migrate build tooling from Dist::Zilla to Minilla.
 
 0.06 2018-06-05

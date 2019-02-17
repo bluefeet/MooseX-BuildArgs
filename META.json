@@ -42,8 +42,7 @@
       },
       "runtime" : {
          "requires" : {
-            "Moose" : "1.23",
-            "MooseX::Types" : "0.37"
+            "Moose" : "1.23"
          }
       },
       "test" : {
