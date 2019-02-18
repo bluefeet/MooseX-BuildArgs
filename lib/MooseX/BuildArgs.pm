@@ -1,6 +1,6 @@
 package MooseX::BuildArgs;
 
-$MooseX::BuildArgs::VERSION = '0.06';
+$MooseX::BuildArgs::VERSION = '0.07';
 
 =head1 NAME
 
