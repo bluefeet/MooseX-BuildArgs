@@ -42,7 +42,8 @@
       },
       "runtime" : {
          "requires" : {
-            "Moose" : "1.23"
+            "Moose" : "1.23",
+            "perl" : "5.008001"
          }
       },
       "test" : {
