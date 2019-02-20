@@ -2,7 +2,8 @@ Revision history for Perl extension MooseX-BuildArgs.
 
 {{$NEXT}}
 
- - Require perl 5.8 per Minilla.
+ - Fix a test that wasn't migrated to Test2::V0.
+ - Require perl 5.8.1.
  - Simplify VERSION declarations.
 
 0.07 2019-02-18T06:11:05Z
