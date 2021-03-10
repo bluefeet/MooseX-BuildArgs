@@ -48,9 +48,9 @@ Moose::Exporter->setup_import_methods(
 1;
 __END__
 
-=head1 AUTHOR
+=head1 AUTHORS
 
-Aran Clary Deltac <bluefeet@gmail.com>
+    Aran Clary Deltac <bluefeet@gmail.com>
 
 =head1 LICENSE
 

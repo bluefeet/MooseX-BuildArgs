@@ -6,13 +6,15 @@ MooseX::BuildArgs - Save the original constructor arguments for later use.
 
 Create a class that uses this module:
 
-    package MyClass;
-    use Moose;
-    use MooseX::BuildArgs;
-    has foo => ( is=>'ro', isa=>'Str' );
-    
-    my $object = MyClass->new( foo => 32 );
-    print $object->build_args->{foo};
+```perl
+package MyClass;
+use Moose;
+use MooseX::BuildArgs;
+has foo => ( is=>'ro', isa=>'Str' );
+
+my $object = MyClass->new( foo => 32 );
+print $object->build_args->{foo};
+```
 
 # DESCRIPTION
 
@@ -24,13 +26,17 @@ that were passed to the constructor.
 A contrived case for this module would be for creating a clone of an object, so you could
 duplicate an object with the following code:
 
-    my $obj1 = MyClass->new( foo => 32 );
-    my $obj2 = MyClass->new( $obj1->build_args() );
-    print $obj2->foo();
+```perl
+my $obj1 = MyClass->new( foo => 32 );
+my $obj2 = MyClass->new( $obj1->build_args() );
+print $obj2->foo();
+```
 
-# AUTHOR
+# AUTHORS
 
+```
 Aran Clary Deltac <bluefeet@gmail.com>
+```
 
 # LICENSE
 
